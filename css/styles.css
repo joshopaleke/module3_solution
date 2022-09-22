@@ -1,0 +1,63 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/*HEADER*/
+#header-nav {
+  background-color: #B8B8B8;
+  border-radius: 0;
+  border: 2px solid #000000;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 3px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+#nav-list a:hover{
+  background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/*END HEADER*/
+
+/*MAIN CONTENT*/
+#main-content h2 {
+  margin-bottom: 30px;
+}
+#menu-1, #menu-2, #menu-3 {
+  height: 700px;
+  background:#d0d0d0;
+}
+#main-content .hidden {
+  display: none;
+}
+
+/*END MAIN CONTENT*/
+
+/*********** Only for Mobile ******************/
+@media (max-width: 767px) {
+  #main-content.container {
+    margin: 0 50px 0 50px;
+  }
+}
